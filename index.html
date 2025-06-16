@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio</title>
+</head>
+<body>
+    <nav class="navegacao">
+        <ul class="menu">
+            <li>
+                <a href="#inicio">Início</a>
+            </li>
+            <li>
+                <a href="#sobre">Sobre</a>
+            </li>
+            <li>
+                <a href="#projetos">Projetos</a>
+            </li>
+            <li>
+                <a href="#contatos">Contato</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="inicio" class="cabecalho">
+        <section>
+            <img src="./imgs/foto-perfil.jpg" alt="Foto-Fabricio-Basilio" class="foto-perfil">
+            <h1>Fabrício Basílio</h1>
+            <p>Programador Front-end</p>
+        </section>
+    </main>
+
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre Mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-texto">Sou um desenvolvedor front-end. Tenho conhecimento em HTML5, CSS3 e Javascript. Desenvolvi projetos simples, mas que marcam o início de minha jornada com tal área.</p>
+        </div>
+    </section>
+
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo">Meus Projetos</h2>
+        <div class="projetos-caixa">
+
+            <div class="projetos-card">
+                <img src="./imgs/cronometro.png" alt="Projeto 1" class="projetos-imagem">
+                <h3 class="projeto-titulo">Cronômetro</h3>
+                <p class="projeto-texto">Um simples cronômetro responsivo desenvolvido com as tecnologias HTML, CSS e Javascript. Fiz esse projeto com o intuito de praticar minhas habilidades com Javascript e DOM.</p>
+            </div>
+
+            <div class="projetos-card">
+                <img src="./imgs/jogo-da-velha.png" alt="Projeto 2" class="projetos-imagem">
+                <h3 class="projeto-titulo">Jogo da velha</h3>
+                <p class="projeto-texto">Um jogo da velha feito com HTML, CSS e Javascript sem o uso de uma biblioteca ou de um framework.</p>
+            </div>
+
+            <div class="projetos-card">
+                <img src="./imgs/projeto-android.png" alt="Projeto 3" class="projetos-imagem">
+                <h3 class="projeto-titulo">Projeto android</h3>
+                <p class="projeto-texto">Desenvolvi esse projeto durante o módulo 2 do curso HTML5 e CSS3 no Curso em Vídeo, o qual se trata de um site responsivo que fala sobre a história do mascote do Android. Foram utilizadas as tecnologias HTML5 e CSS3.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contatos" class="contatos">
+        <h2 class="contatos-titulo">Contatos</h2>
+        <form class="formulario-contato" id="formulario">
+            <div class="nome-form">
+                <input placeholder="Nome" class="campo-form">
+            </div>
+            <div class="grupo-form">
+                <textarea placeholder="Digite sua mensagem" class="text-form"></textarea>
+            </div>
+
+        </form>
+    </section>
+</body>
+</html>
