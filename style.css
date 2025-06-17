@@ -182,7 +182,7 @@ h1 {
     color: var(--cor10);
     line-height: 1.25rem;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     font-size: 25px;
     font-weight: 700;
 }
@@ -191,10 +191,63 @@ h1 {
     margin-bottom: 5px;
 }
 
+/* Contatos */
 
+.contatos {
+    padding: 6rem 2rem;
+}
 
+.contatos-titulo {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 35px;
+}
 
+.formulario-contato {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: var(--cor9);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    border: 1px solid var(--cor5);
+    border-radius: 15px;
+}
 
+.campo-form {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--cor9);
+    border-radius: 8px;
+    color: var(--cor5);
+    border: 1px solid var(--cor5);
+    outline: none;
+}
 
+.campo-form:focus {
+    border-color: var(--cor2);
+    box-shadow: var(--cor8);
+}
+
+.grupo-form {
+    margin-bottom: 1.5rem;
+}
+
+.botao-form {
+    color: var(--cor5);
+    background: linear-gradient(45deg, var(--cor1), var(--cor2));
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    transition: all 0.5s linear;
+}
+
+.botao-form:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 5px 15px var(--cor8);
+}
 
 
