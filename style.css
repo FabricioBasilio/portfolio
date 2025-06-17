@@ -18,6 +18,22 @@
     --cor10: RGBA(226, 232, 240, 0.8);
 }
 
+/* Partículas */
+.particulas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    background: 
+    radial-gradient(circle at 10% 20%, var(--cor1) 0%, transparent 20%),
+    radial-gradient(circle at 90% 80%, var(--cor2) 0%, transparent 20%),
+    var(--cor4)
+    ;
+}
+
 /* Menu de navegação */
 
 body {
@@ -89,6 +105,7 @@ a.menu-link:hover::after {
     box-shadow: 0 0 20px var(--cor8);
     border-radius: 50%;
     border: 2px solid var(--cor6);
+    animation: flutuar 3s linear infinite;
 }
 
 h1 {
@@ -250,4 +267,14 @@ h1 {
     box-shadow: 0 5px 15px var(--cor8);
 }
 
+/* Animação da foto de perfil */
 
+@keyframes flutuar {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
